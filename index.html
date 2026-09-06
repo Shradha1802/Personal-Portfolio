@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shradha Choudhary — Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Shradha Choudhary — full-stack developer skilled in MERN, backend systems, real-time applications, and IoT-integrated solutions.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip_link" href="#main">Skip to content</a>
+
+    <header class="site_header">
+        <nav class="nav">
+            <a href="#home" class="brand">Shradha<span>.</span></a>
+
+            <button class="nav_toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav_links" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact" class="nav_cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero_grid">
+                <div class="hero_text">
+                    <p class="prompt"><span class="prompt_user">shradha@dev</span><span class="prompt_sep">:~$</span>
+                        <span id="element"></span><span class="cursor" aria-hidden="true"></span>
+                    </p>
+                    <h1>Shradha Choudhary</h1>
+                    <p class="hero_lede">Full-stack developer skilled in the MERN stack, backend systems, and
+                        real-time applications — building software that turns ideas and GenAI pipelines into
+                        products people can actually use.</p>
+                    <div class="hero_actions">
+                        <a href="#work" class="btn btn_primary">View my work</a>
+                        <a href="Shradha Choudhary CV.pdf" download="Shradha Choudhary CV.pdf"
+                            class="btn btn_ghost">Download CV</a>
+                    </div>
+                    <p class="hero_status"><span class="status_dot" aria-hidden="true"></span>Open to full-time SDE
+                        opportunities</p>
+                </div>
+
+                <div class="hero_photo">
+                    <img src="user.jpeg" alt="Shradha Choudhary">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="section_head">
+                <h2>About</h2>
+            </div>
+
+            <div class="about_grid">
+                <p class="about_bio">B.Tech Computer Science and Engineering student at IITM College of Engineering. I build across the stack — from ESP32 firmware and sensor fusion up through React front ends and Gemini-powered GenAI pipelines — and I'm looking for a software engineering role where I can keep doing that at scale.</p>
+
+                <div class="tabs">
+                    <input type="radio" name="about_tab" id="Skill" checked>
+                    <label for="Skill">Skills</label>
+                    <input type="radio" name="about_tab" id="Achievements">
+                    <label for="Achievements">Achievements</label>
+                    <input type="radio" name="about_tab" id="Education">
+                    <label for="Education">Education</label>
+
+                    <div class="tab_panel about_skill">
+                        <div class="tab_row">
+                            <p class="tab_row_label">Languages &amp; Backend</p>
+                            <p class="tab_row_value">Java, JavaScript, Python, SQL, Node.js, Express.js, REST APIs,
+                                JWT, Passport.js</p>
+                        </div>
+                        <div class="tab_row">
+                            <p class="tab_row_label">Frontend</p>
+                            <p class="tab_row_value">React.js, HTML5, CSS3, EJS, Bootstrap, Tailwind CSS</p>
+                        </div>
+                        <div class="tab_row">
+                            <p class="tab_row_label">Databases &amp; Tools</p>
+                            <p class="tab_row_value">MongoDB, MySQL, Git, Postman, Puppeteer, Mapbox, Cloudinary,
+                                Gemini AI</p>
+                        </div>
+                    </div>
+
+                    <div class="tab_panel about_experience">
+                        <div class="tab_row">
+                            <p class="tab_row_label">Oracle Cloud Infrastructure</p>
+                            <p class="tab_row_value">Generative AI Professional</p>
+                        </div>
+                        <div class="tab_row">
+                            <p class="tab_row_label">NPTEL</p>
+                            <p class="tab_row_value">Introduction to Machine Learning </p>
+                        </div>
+                        <div class="tab_row">
+                            <p class="tab_row_label">Oracle Cloud Infrastructure</p>
+                            <p class="tab_row_value">AI Foundations Associate</p>
+                        </div>
+                    </div>
+
+                    <div class="tab_panel about_education">
+                        <div class="tab_row">
+                            <p class="tab_row_label">2023 – 2027</p>
+                            <p class="tab_row_value">B.Tech in Computer Science and Engineering student at IITM College of Engineering, Maharishi Dayanand University</p>
+                        </div>
+                        <div class="tab_row">
+                            <p class="tab_row_label">2021 – 2022</p>
+                            <p class="tab_row_value">Class XII, X - ML Khanna DAV Public School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <div class="section_head">
+                <h2>What I build</h2>
+            </div>
+
+            <div class="services_grid">
+                <div class="service_card" style="--card-accent: var(--accent);">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Full-Stack Development</h3>
+                    <p>Complete web applications with the MERN stack — React front ends, Node/Express APIs,
+                        MongoDB data layers, JWT and Passport.js authentication, built on clean MVC architecture.</p>
+                </div>
+                <div class="service_card" style="--card-accent: var(--accent-warm);">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h3>IoT-Integrated Solutions</h3>
+                    <p>Hardware-to-cloud pipelines — ESP32 firmware, sensor fusion across ultrasonic, IMU and GPS,
+                        and real-time dashboards that turn physical-world data into mapped, actionable insight.</p>
+                </div>
+                <div class="service_card" style="--card-accent: var(--accent-violet);">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>GenAI Integration</h3>
+                    <p>Generative AI wired into real product flows — Gemini-powered resume/JD parsing, skill-gap
+                        detection, ATS scoring, and automated document generation with Puppeteer.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="work" id="work">
+            <div class="section_head">
+                <h2>Selected work</h2>
+            </div>
+
+            <div class="work_grid">
+
+                <article class="work_card">
+                    <div class="work_thumb" data-fallback-label="PG">
+                        <img src="work-1.png" alt="PotholeGuard dashboard screenshot">
+                    </div>
+                    <div class="work_body">
+                        <h3>PotholeGuard</h3>
+                        <p>IoT + MERN pothole detection system. ESP32 dual-sensor fusion (ultrasonic depth + IMU
+                            vibration) feeding a full-stack dashboard with GPS-tagged, severity-classified events.</p>
+                        <ul class="tech_tags">
+                            <li>ESP32</li>
+                            <li>MPU6050</li>
+                            <li>MERN</li>
+                            <li>Mapbox</li>
+                        </ul>
+                        <a href="https://potholedetection-a8ta.onrender.com/" target="_blank" rel="noopener noreferrer"
+                            class="work_link">View live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+                <article class="work_card">
+                    <div class="work_thumb" data-fallback-label="WL">
+                        <img src="work-2.png" alt="Wanderlust travel platform screenshot">
+                    </div>
+                    <div class="work_body">
+                        <h3>Wanderlust</h3>
+                        <p>Full-stack travel listing platform with Passport.js session auth, MongoDB-backed CRUD,
+                            Cloudinary image uploads, and interactive Mapbox location display.</p>
+                        <ul class="tech_tags">
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                            <li>Passport.js</li>
+                            <li>Cloudinary</li>
+                        </ul>
+                        <a href="https://wanderlust-4pkr.onrender.com/" target="_blank" rel="noopener noreferrer"
+                            class="work_link">View live demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+                <article class="work_card">
+                    <div class="work_thumb" data-fallback-label="CG">
+                        <img src="work-3.png" alt="CareerGenie platform screenshot">
+                    </div>
+                    <div class="work_body">
+                        <h3>ResumeGenie</h3>
+                        <p>GenAI job-prep platform using Gemini AI for resume/JD parsing, skill-gap detection, and
+                            ATS-score generation, with Puppeteer automating PDF resume exports.</p>
+                        <ul class="tech_tags">
+                            <li>React</li>
+                            <li>Gemini AI</li>
+                            <li>Puppeteer</li>
+                            <li>JWT</li>
+                        </ul>
+                        <a href="https://resumegenie-pdq3.onrender.com/" target="_blank"
+                            rel="noopener noreferrer" class="work_link">View live demo <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+            </div>
+
+            <a href="https://github.com/Shradha1802" target="_blank" rel="noopener noreferrer" class="btn btn_ghost work_more">
+                More projects on GitHub
+            </a>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="section_head">
+                <h2>Get in touch</h2>
+            </div>
+
+            <div class="contact_grid">
+                <div class="contact_detail">
+                    <p>Have a role in mind, or want to talk about a project? I read every message myself.</p>
+
+                    <ul class="contact_list">
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:shradha.choudhary04@gmail.com">shradha.choudhary04@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+917982694035">+91 7982694035</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>New Delhi, India</span>
+                        </li>
+                    </ul>
+
+                    <ul class="social_list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/shradha-choudhary18/" target="_blank"
+                                rel="noopener noreferrer" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Shradha1802" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://leetcode.com/u/shradhaC18/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                        </li>
+                    </ul>
+
+                    <a href="Shradha Choudhary CV.pdf" download="Shradha Choudhary CV.pdf"
+                        class="btn btn_primary">Download CV</a>
+                </div>
+
+                <form class="contact_form" id="contactForm" action="https://formsubmit.co/ajax/shradha.choudhary04@gmail.com"
+                    method="POST">
+                    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                    <input type="hidden" name="_subject" value="New message from your portfolio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <label class="field">
+                        <span>Your name</span>
+                        <input type="text" id="cf_name" name="name" required>
+                    </label>
+                    <label class="field">
+                        <span>Your email</span>
+                        <input type="email" id="cf_email" name="email" required>
+                    </label>
+                    <label class="field">
+                        <span>Message</span>
+                        <textarea id="cf_message" name="message" rows="5" required></textarea>
+                    </label>
+
+                    <button type="submit" id="hireBtn" class="btn btn_primary btn_full">HIRE ME</button>
+                    <p class="form_status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site_footer">
+        <p>&copy; <span id="year"></span> Shradha Choudhary. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="trial.js"></script>
+</body>
+
+</html>
